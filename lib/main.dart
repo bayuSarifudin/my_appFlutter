@@ -74,7 +74,7 @@ class LoginPage extends StatelessWidget {
                   backgroundColor: Colors.redAccent,
                   foregroundColor: Colors.white,
                   minimumSize: const Size(300.0, 40.0)),
-              child: const Text('Register'),
+              child: const Text('daftar disini'),
             )
           ],
         ),
