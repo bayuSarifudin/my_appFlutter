@@ -86,7 +86,31 @@ class HomePage extends StatelessWidget {
                 )
               ],
             ),
-          )
+          ),
+          Container(
+            width: double.infinity,
+            decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(15.0),
+                boxShadow: const [
+                  BoxShadow(
+                    color: Colors.black12,
+                    spreadRadius: 2,
+                    blurRadius: 2,
+                    offset: Offset(2, 2),
+                  ),
+                ]),
+            child: Column(
+              children: [
+                Image.asset('images/image1.png'),
+                const ListTile(
+                  title: Text('How To Get Rich'),
+                  leading: Icon(Icons.money_rounded),
+                  trailing: Icon(Icons.arrow_forward_ios_rounded),
+                )
+              ],
+            ),
+          ),
         ],
       ),
     );
